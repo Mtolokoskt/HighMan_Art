@@ -1,0 +1,192 @@
+html{
+  background-color:white;
+}
+#menu img{
+
+    margin-left: 4%;
+    margin-top: 3%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+
+
+}
+
+#menu li, #option li {
+
+  margin-left: 2%;
+  display: block;
+  list-style-type: none;
+  padding-right: 20px;
+  
+}
+
+.destaque #destaque1 {
+
+  float:right;
+  width: 50%;
+  
+}
+
+.destaque #destaque2 {
+
+  float: left; 
+  width: 50%;
+
+}
+
+.destaque #destaque3 {
+
+  float: right;
+  width: 50%;
+
+}
+
+.destaque #destaque4 {
+
+  float: left;
+  width: 50%;
+
+}
+
+.destaque #destaque5{
+
+  position: absolute;
+  width: 20%;
+  float: left;
+  margin-left: 29%;
+  margin-top: 16%; 
+
+}
+
+.destaque #destaque6{
+
+  position: absolute;
+  width:20%;
+  margin-top: 16%;
+  margin-left: 50%;
+}
+
+.destaque #destaque7{
+
+  position: absolute;
+  width: 20%;
+  margin-top: 29%;
+  margin-left: 29%;
+
+}
+
+.destaque #destaque8{
+
+  margin-top: -27%;
+  width: 20%;
+  margin-left: 51%;
+
+}
+
+.sobre #foto_cesar{
+
+    width: 70%;
+
+}
+
+
+.equipes #foto_equipes {
+
+  width: 100%;
+  height: 30%;
+
+}
+
+.portfolio #portfolio1{
+
+  border-radius: 10px;
+  float: left;
+  margin-top: 5%;
+  margin-left: 3%;
+  width: 30%;
+
+}
+
+.portfolio #portfolio2{
+
+  border-radius: 10px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 5%;
+  width: 30%;
+
+}
+
+.portfolio #portfolio3{
+
+  border-radius: 10px;
+  float: left;
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 30%;
+
+}
+
+.portfolio #portfolio4{
+
+  border-radius: 10px;
+  float: left;
+  margin-left: 3%;
+  margin-top: 5%;
+  width: 30%;
+
+}
+
+.portfolio #portfolio5{
+
+  border-radius: 10px;
+  float: left;
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 30%;
+
+}
+
+.portfolio #portfolio6{
+
+  border-radius: 10px;
+  float: left;
+  margin-top: 5%;
+  margin-left: 2%;
+  width: 30%;
+
+}
+
+.portfolio #portfolio7{
+
+  margin-top: 5%;
+  margin-left: 3%;
+  float: left;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.portfolio #portfolio8{
+
+  margin-top: 5%;
+  margin-left: 2%;
+  float: left;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.portfolio #portfolio9{
+
+  margin-top: 5%;
+  margin-left: 2%;
+  float: left;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.contato{
+
+  text-align: center;
+
+}
