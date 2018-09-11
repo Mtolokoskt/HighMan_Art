@@ -13,10 +13,10 @@
     
             <a aria-expanded="false" id="menu" href="#" onclick="toggle('option', 'menu')"><img src="img\Logo.png"/></a>
             <ul style="d" id="option">
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-                <li><a href="#">Link 4</a></li>
+                <li><a href="#sobre">Link 1</a></li>
+                <li><a href="#equipes">Link 2</a></li>
+                <li><a href="#portofilo">Link 3</a></li>
+                <li><a href="#contato">Link 4</a></li>
             </ul>
 
     </div>
@@ -39,21 +39,23 @@
         <img id="destaque8" src="img/destaque8.jpg" alt="">
 
     </div>
-        <table class="sobre">
-            <tr>
-                <td><img id="foto_cesar" src="img/foto_cesar.jpg" alt=""></td>
-                <td><h1 id="texto_sobre"> 
-                O que é Lorem Ipsum?
-                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-                </h1></td>
-            </tr>
-        </table> 
-    <div class="equipes">
+        <div id="sobre">
+            <table class="sobre">
+                <tr>
+                    <td><img id="foto_cesar" src="img/foto_cesar.jpg" alt=""></td>
+                    <td><h1 id="texto_sobre"> 
+                    O que é Lorem Ipsum?
+                    Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                    </h1></td>
+                </tr>
+            </table>
+        </div> 
+    <div id="equipes" class="equipes">
 
         <img id="foto_equipes" src="img/foto_equipes.jpg" alt="">
 
     </div>
-    <div class="portfolio">
+    <div id="portofilo" class="portfolio">
 
         <img id="portfolio1" src="img/portfolio1.jpg" alt="">    
     
@@ -77,7 +79,7 @@
 
     </div>
     
-    <div class='contato'>
+    <div id="contato" class='contato'>
 
         <form autocomplete="off">
 
